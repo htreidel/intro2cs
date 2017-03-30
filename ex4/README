@@ -1,0 +1,41 @@
+hadar_t787
+20325554
+Hadar Treidel
+
+I discussed the exercise with: None.
+
+=====================
+=  README for ex4:  =
+=====================
+
+=========
+= Files =
+=========
+- README - This file
+- hangman.py - contains hangman game program
+==================
+=  Description:  =
+==================
+
+Followed instructions. No particular problem.
+
+======================
+=  Special Comments  =
+======================
+
+=====================
+Theoretical questions
+=====================
+
+What would I need to change in the program to make it
+work with hebrew letters?
+I will need to change the following:
+1) in function "run_single_game" I will need change the
+   functions that check if input is an english lowercase
+   letter to a function that will check if input is hebrew
+   letter.
+2) in function "choose_letter" I would need to change constant
+   NUMBER_OF_LETTERS from 26 to 22.
+3) I would need to change functions "letter_to_index"
+   and "index_to_letter" to fit hebrew alphabet instead of english
+   probably using a dictionary list.

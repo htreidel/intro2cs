@@ -1,0 +1,50 @@
+hadar_t787
+20325554
+Hadar Treidel
+
+I discussed the exercise with: None.
+
+=====================
+=  README for ex3:  =
+=====================
+
+=========
+= Files =
+=========
+- README - This file
+- ex3.py - contains 8 required functions, each function 
+  carries its own description
+==================
+=  Description:  =
+==================
+
+Followed instructions. No particular problem.
+
+======================
+=  Special Comments  =
+======================
+
+=====================
+Theoretical questions
+=====================
+
+What would my program return for the following calls:
+1)  cyclic('abcd','bcda') - function would return an error
+    as inputs are of type str and therefor immutable and my
+    function contains .remove which works on mutable objects.
+
+2)  histogram(3,[1,2,3,4]) - will return the list [0,1,1] as my 
+    function only counts the numbers from 0 to n-1 which is in this
+    case: 2, and how many times each number apears on the list, so it
+    will simply ignore the 3,4 in the list.
+
+3)  prime_factors(0) - function would return an empty list, because any
+    number that equals to or is smaller than 1 would return an empty list.
+
+4)  pairs(2,[0,0,1,1,2,2]) - function would return
+    [[0, 2], [0, 2], [0, 2], [0, 2]], thats because 
+    function was not meant to deal with cases on number
+    repetition, in which case function would pair each "2" to two "0"s,
+    which would result in four pairs of [0,2]. [1,1] would not be recieved
+    because function eliminates double apearances by checking i < j, which
+    would fail in [1,1]

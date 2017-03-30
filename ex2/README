@@ -1,0 +1,36 @@
+hadar_t787
+20325554
+Hadar Treidel
+
+I discussed the exercise with: None.
+
+=====================
+=  README for ex2:  =
+=====================
+
+=========
+= Files =
+=========
+- README - This file
+- convert_spoon_to_cup.py - converts spoons to cups
+- calculate_mathematical_expression.py - recieves "text messege"
+  with arithmetic equation and returns solution
+- largest_and_smallest.py - finds smallest and largest numbers out
+  of given 3 numbers
+- quadratic_equation.py - recieves coefficents for quadratic equation
+  from user and prints answers
+- shapes.py - calculates area of one of three shapes, recieves   
+  variables from user 
+- bmi.py - recieves wieght and height and returns if bmi is ordinary
+  or not
+==================
+=  Description:  =
+==================
+
+Followed instructions. No particular problem.
+
+======================
+=  Special Comments  =
+======================
+
+None
